@@ -23,6 +23,6 @@ Python installed on Windows 11 (check by opening CMD and typing py --version or 
 If not installed: Download from https://www.python.org/downloads/ or Microsoft Store
 
 # Test It
-Place start_server.bat in a folder with an index.html file
-Double-click the .bat file
+Place start_server.bat in a folder with an index.html file.
+Double-click the .bat file.
 Your browser should open and show the page!
