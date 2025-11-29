@@ -1,7 +1,7 @@
-Simple HTTP Server
-A simple HTTP server using Python’s built-in http.server module.
+# Simple HTTP Server
+## A simple HTTP server using Python’s built-in http.server module.
 
-One-Click Launch on Windows 11
+Click Launch on Windows 11
 To run your enhanced HTTP server with a single click, use the included batch script (start_server.bat). This solution:
 
 Runs with one double-click
@@ -15,8 +15,7 @@ If you prefer the server to run in the background without showing a terminal win
 run_server.vbs
 
 vbscript
-1
-💡 Note: Double-clicking run_server.vbs starts the server silently—but you won’t see logs or be able to stop it easily (use Task Manager to end python.exe if needed).
+Note: Double-clicking run_server.vbs starts the server silently—but you won’t see logs or be able to stop it easily (use Task Manager to end python.exe if needed).
 
 Recommendation: Use the .bat file for visibility and easy shutdown during development.
 
