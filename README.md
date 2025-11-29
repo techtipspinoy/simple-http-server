@@ -1,28 +1,37 @@
-# simple-http-server
- Simple HTTP server using Python’s built-in http.server module
+Simple HTTP Server
+A simple HTTP server using Python’s built-in http.server module.
 
-# To create a one-click way to run your enhanced HTTP server on Windows 11, you can wrap the Python command in a double-clickable .bat file (batch script). Below is a complete, ready-to-use solution that:
-Runs with one click
-Uses port 4000 and binds to all interfaces (0.0.0.0)
-Opens the browser automatically
-Shows a friendly window with logs
-Works even if Python is installed via Microsoft Store or standard installer
+One-Click Launch on Windows 11
+To run your enhanced HTTP server with a single click, use the included batch script (start_server.bat). This solution:
 
-# Bonus: Make It Even Simpler (No Terminal Window?)
-If you don’t want the black console window to show, you can run it silently using a small VBScript wrapper:
+Runs with one double-click
+Serves files on port 4000 and binds to all interfaces (0.0.0.0)
+Automatically opens your default browser
+Displays a friendly console window with live logs
+Works whether Python is installed via the Microsoft Store or the official installer
+Bonus: Run Silently (No Console Window)
+If you prefer the server to run in the background without showing a terminal window, use the optional VBScript wrapper:
 
-Script: CreateObject("Wscript.Shell").Run "start_server.bat", 0, False
+run_server.vbs
 
-# Now double-click run_server.vbs → the server runs in the background (no window).
-But then you won’t see logs or be able to easily stop it (use Task Manager to end python.exe).
+vbscript
+1
+💡 Note: Double-clicking run_server.vbs starts the server silently—but you won’t see logs or be able to stop it easily (use Task Manager to end python.exe if needed).
 
-Recommendation: Stick with the .bat file for visibility and easy shutdown.
+Recommendation: Use the .bat file for visibility and easy shutdown during development.
 
-# Requirements
-Python installed on Windows 11 (check by opening CMD and typing py --version or python --version)
-If not installed: Download from https://www.python.org/downloads/ or Microsoft Store
-
-# Test It
-Place start_server.bat in a folder with an index.html file.
-Double-click the .bat file.
-Your browser should open and show the page!
+Requirements
+Python installed on Windows 11
+Verify your installation by opening Command Prompt and running:
+cmd
+1
+or
+cmd
+1
+If Python isn’t installed, download it from:
+https://www.python.org/downloads/
+or install it from the Microsoft Store.
+How to Test
+Place start_server.bat in a folder that contains an index.html file.
+Double-click start_server.bat.
+Your browser will open automatically and display the served webpage!
